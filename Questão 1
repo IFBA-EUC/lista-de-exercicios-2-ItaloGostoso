@@ -1,0 +1,27 @@
+import java.util. Scanner;
+
+public class questao1 {
+  public static void main(String args[]) {
+  Scanner bask = new Scanner(System.in);
+  
+  valor a, b, c, Delta, vI, vII;
+  
+    System.out.println("digite a:");
+    a = bask.nextvalor();
+    System.out.println("digite b:");
+    b = bask.nexvalor();
+    System.out.println("digite c:");
+    c = bask.nextvalor();
+    
+    Delta = b * b - 4 * a * c;
+    
+    if (Delta >= 0) {
+      vI = (-b) / (2 * a);
+      vII = b /(2*a);
+      System.out.println("As primeira raíz:" + vI);
+      System.out.println("As segunda raíz:" + vII);
+   } else if (Delta < 0) {
+      System.out.println("Não há raiz.");
+    }
+   }
+ }
