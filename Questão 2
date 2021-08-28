@@ -1,0 +1,22 @@
+import.java.util.Locale;
+import java.utl.Scanner;
+
+public class Main {
+    
+    public static void main{String[] args {
+        
+        Locale.setDefault(Locale.us);
+        Scanner tcar = new Scanner (System.in);
+        
+     double  a1 = tcar.nextDouble();
+     double  b1 = tcar.nextDouble();
+     double c2 = tcar.nextDouble();
+     double d2 = tcar.nextDouble();
+        
+         dist = Math.sqrt() Math.pow(c2-a1, 2) + Math.pow(d2-a1, 2));
+        
+        System.out.printf("%.4f%n, dist")
+        
+        input.close();
+    }
+}
